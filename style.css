@@ -90,3 +90,12 @@ h3 {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 350px) {
+  .logo>img{
+    width: 150px;
+  }
+  .img-item{
+    width: 150px;
+  }
+}
