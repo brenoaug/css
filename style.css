@@ -58,12 +58,35 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  .logo {
+  .logo{
     display: flex;
     flex-direction: column;
   }
   .logo>img{
-    width: 70%;
-    justify-content: center;
+    width: 300px;
+    margin: 15px auto;
+  }
+  .navegacao {
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+    padding: 0px;
+  }
+  .navegacao > li {
+    background-color: #654320;
+    border-radius: 5px;
+    padding: 5px 5px;
+    gap: 3px;
+    max-width: 600px;
+  }
+  h1,p{
+    margin: 0 10px;
+  }
+  .container-responsivo{
+    flex-direction: column;
+  }
+  .img-item{
+    display: block;
+    margin: 0 auto;
   }
 }
