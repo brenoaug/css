@@ -58,11 +58,11 @@ h3 {
 }
 
 @media (max-width: 600px) {
-  .logo{
+  .logo {
     display: flex;
     flex-direction: column;
   }
-  .logo>img{
+  .logo > img {
     width: 300px;
     margin: 15px auto;
   }
@@ -79,23 +79,24 @@ h3 {
     gap: 3px;
     max-width: 600px;
   }
-  h1,p{
+  h1,
+  p {
     margin: 0 10px;
   }
-  .container-responsivo{
+  .container-responsivo {
     flex-direction: column;
   }
-  .img-item{
+  .img-item {
     display: block;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 350px) {
-  .logo>img{
+  .logo > img {
     width: 150px;
   }
-  .img-item{
+  .img-item {
     width: 150px;
   }
 }
